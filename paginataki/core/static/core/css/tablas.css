@@ -1,0 +1,54 @@
+body {font-family: Arial;}
+
+table, td, th {
+    border: 1px solid #383d3b; 
+    margin-left: auto; margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px 20px;
+   
+}
+th {
+    background: #DBEDEE;
+    color: black;  
+}
+.table-responsive .table td, th{
+    width: 50%;
+
+}
+tr:hover {
+    background: #FCFBF7;
+    width: 50%;
+}
+.contenidoPrincipal h1{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 40px;
+    color: grey;
+    text-align: center;
+}
+.contenidoPrincipal h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 30px;
+    color: black;
+}
+
+.contenedor .contenidoPrincipal .imagen img{
+    width: 100%;
+}
+.contenidoPrincipal .imagen table{
+    width:75%;
+}
+
+@media screen and (max-width: 800px){
+    table, td, th{
+        width: 100%;
+    }
+}
+
+
+

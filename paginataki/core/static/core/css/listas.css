@@ -1,0 +1,51 @@
+.titulo h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: grey;
+    font-size: 40px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px; 
+    border: 1px solid white; 
+}
+table td{
+    width: 25%;
+   
+}
+td a{
+    font-size: 30px;
+    color: #028090;
+    text-decoration: none;
+    vertical-align: 50%;
+}
+td a:hover, a:active {
+    font-size: 30px;
+    color: #a8c2ca;
+    text-decoration-line: underline;
+}
+table img{
+    border: 5px solid #ADFCF9;
+    background-color: #ADFCF9;
+    height: 350px;
+    width: 100%;
+}
+.contenidoPrincipal{
+    background: #FCFBF7;
+}
+.contenidoPrincipal table{
+    width: 100%;
+    
+}
+@media screen and (max-width: 800px){
+    .contenidoPrincipal table tr.td{ 
+        width: 100%;
+    }
+}
+
+
+
+
+

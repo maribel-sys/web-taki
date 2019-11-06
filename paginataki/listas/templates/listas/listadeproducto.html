@@ -1,0 +1,29 @@
+   {% extends 'core/base.html' %}
+  {% load static %}
+  {%block title%}Lista de productos{% endblock %}
+   {%block headers%}
+        <meta charset= "UTF-8">
+        <meta name="viewport" content="width=device-width", 
+user-scalable=ni,initial-scale=1.0,maximium-scale=1.0,minimium-scale=1.0">
+        <link rel="stylesheet" href="{%static 'core/css/estilos.css'%}">
+        <link rel="stylesheet" href="{%static 'core/css/listaproductos.css'%}">
+    {% endblock %}
+    {% block content %}
+    <body> 
+       
+        <div class="contenedor">
+            <section class="contenidoPrincipal">
+                <div class="prueba">
+                    <img src="{%static 'core/img/hola4.jpeg'%}" alt="" > 
+                    <h1>Tu lista de productos:</h1>
+                    <ul>
+                        {% for producto in productos %}
+                                <li>{{producto.producto}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+    </body>
+    {% endblock %}

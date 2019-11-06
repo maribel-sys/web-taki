@@ -1,0 +1,30 @@
+ {% extends 'core/base.html' %}
+ {%load static%} 
+  {%block title%}Lista de mercado{% endblock %}
+ {%block headers%}
+        <meta charset= "UTF-8">
+        <meta name="viewport" content="width=device-width", 
+user-scalable=ni,initial-scale=1.0,maximium-scale=1.0,minimium-scale=1.0">
+        <link rel="stylesheet" href="{%static 'core/css/estilos.css'%}">
+        <link rel="stylesheet" href="{%static 'core/css/listaproductos.css'%}">
+   
+ {% endblock %}
+ {% block content %}
+        <body> 
+       
+            <div class="contenedor">
+            <section class="contenidoPrincipal">
+                <div class="prueba">
+                    <h2 class="titulo">{{project.title}}</h2> 
+                    <img src="{%static 'core/img/hola3.jpeg'%}" alt="" > 
+                     <h1>Tu lista de mercado:</h1>
+                    <ul>
+                        {% for mercado in mercados %}
+                                <li>{{mercado.producto}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </section>
+        </body>
+    
+ {% endblock %}

@@ -1,0 +1,40 @@
+
+     {% extends 'core/base.html' %}
+     {% load static %}
+     {%block title%}Listas{% endblock %}
+     {%block headers%}
+        <meta charset= "UTF-8">
+        <meta name="viewport" content="width=device-width", 
+        user-scalable=ni,initial-scale=1.0,maximium-scale=1.0,minimium-scale=1.0">
+        <link rel="stylesheet" href="{%static 'core/css/estilos.css'%}">
+        <link rel="stylesheet" href="{%static 'core/css/listas.css'%}">
+    {% endblock %}
+    {%block content%}
+    <body> 
+        <div class="contenedor">
+            <section class="titulo">
+                    <img src=" {%static 'core/img/principal.png'%}" alt=""> 
+                    <h1>Tus listas:</h1>
+            </section>
+
+            <section class="contenidoPrincipal">
+                <div class="responsive-table">
+                        <table class="table"> 
+                                <tr> 
+                                    <td><img src="{%static 'core/img/hola3.jpeg'%}" alt=""  > </td> 
+                                    <td><a href="{% url 'mercado' %}">Lista del mercado</a></td>
+                                    <td><img src="{%static 'core/img/hola4.jpeg'%}" alt="" > </td>
+                                    <td><a href="{% url 'listadeproducto' %}">Lista de productos</a></td>
+                                </tr>
+                    
+                                <tr> 
+                                    <td><img src="{%static 'core/img/hola5.png'%}" alt="" > </td>
+                                    <td><a href="{% url 'recetario' %}">Recetario</a></td>
+                                    <td><img src="{%static 'core/img/hola1.png'%}" alt="" > </td>
+                                    <td><a href="{% url 'recuerdame' %}">Recuerdame</a></td>
+                                </tr>
+                        </table>
+                </div>
+            </section>
+    </body>
+    {%endblock%}

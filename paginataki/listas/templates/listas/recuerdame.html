@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+  
+{%load static%} 
+{%block title%}Recuerdame{% endblock %}
+{% block headers %}
+        <meta charset= "UTF-8">
+        <meta name="viewport" content="width=device-width", 
+user-scalable=ni,initial-scale=1.0,maximium-scale=1.0,minimium-scale=1.0">
+        <link rel="stylesheet" href="{%static 'core/css/estilos.css'%}">
+        <link rel="stylesheet" href="{%static 'core/css/listaproductos.css'%}">
+{% endblock %}   
+{% block content %}
+    <body> 
+       
+        <div class="contenedor">
+            <section class="contenidoPrincipal">
+                <div class="prueba">
+                    <img src="{%static 'core/img/hola1.png'%}" alt=""> 
+                    <h1>Cosas para recordar:</h1>
+                    <ul>
+                        {% for recordar in recordatorio %}
+                                <li>{{recordar.recordatorio}}</li>
+                        {% endfor %}
+                        </ul>
+                </div>
+            </section>
+        </div>
+    </body>
+    {% endblock %}

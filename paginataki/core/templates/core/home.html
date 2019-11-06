@@ -1,0 +1,36 @@
+{% extends 'core/base.html' %}
+{%load static%}
+{%block title%}Inicio{% endblock %}
+{% block headers %}
+<meta charset= "UTF-8">
+<meta name="viewport" content="width=device-width", 
+user-scalable=ni,initial-scale=1.0,maximium-scale=1.0,minimium-scale=1.0">
+<link rel="stylesheet" href ="{%static 'core/css/estilos.css'%}">
+<link rel="stylesheet" href ="{%static 'core/css/paginaprincipal.css'%}">
+{% endblock %}
+
+ {%block content%}
+<body>
+    <div class ="contenedor">
+        <section class= "main">
+     
+            <img src="{%static 'core/img/principal.png'%}" alt="" >
+       
+        <section class= "contenidoPrincipal">
+            <article>
+            <h1>TAKI, Sistema domotico controlado por la voz</h1>
+            <p>
+            ¿Se te ha olvidado alguna vez una receta, lo que tienes que comprar o 
+            un evento por no escribirlo en algún lugar? Con Taki podrás decir lo que quieras en voz alta
+            y el te lo guardara en listas que podras ver posteriormente donde sea y cuando sea.
+            Con TAKI nada se te volvera a olvidar!!
+             </p>
+            </article>
+        </section>
+
+        </section>
+
+    </div>
+    </body>
+
+    {% endblock %}

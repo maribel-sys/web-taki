@@ -1,0 +1,105 @@
+.explicacion p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 20px;
+}
+.explicacion h2{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color:grey;
+    font-size: 40px;
+    text-align: center;
+}
+.pasos h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: grey;
+    font-size: 40px;
+    text-align: center;
+}
+.pasos .seccion1 .prueba{
+    background: #FCFBF7;
+}
+.pasos .seccion1 .prueba{
+    overflow: hidden;
+}
+.pasos .seccion1 .prueba p{
+    margin-bottom: 23%;
+    margin-top: 24%;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.pasos .seccion1 .prueba img{
+    float: left;
+    padding: 5px;
+    border: 5px solid aqua;
+    background-color: aqua;
+    width: 50%;
+
+}
+.pasos .seccion2 {
+    background: #FCFBF7; 
+}
+.pasos .seccion2 .prueba2{
+    overflow: hidden;
+}
+.pasos .seccion2 .prueba2 p{
+    margin-bottom: 18%;
+    margin-top: 18%;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.pasos .seccion2 .prueba2 img{
+    float: right;
+    padding: 5px;
+    border: 5px solid aqua;
+    background-color: aqua;
+    width: 50%;
+}
+.pasos .seccion3{
+    background: #FCFBF7
+}
+.pasos .seccion3 .prueba3{
+    overflow: hidden;
+}
+.pasos .seccion3 .prueba3 p{
+    margin-bottom: 9%;
+    margin-top: 9%;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.pasos .seccion3 .prueba3 img{
+    float: left;
+    padding: 5px;
+    border: 5px solid aqua;
+    background-color: aqua;
+    width: 50%;
+}
+.pasos .seccion4{
+    background: #FCFBF7
+}
+.pasos .seccion4 .prueba4{
+    overflow: hidden;
+}
+.pasos .seccion4 .prueba4 p{
+    margin-bottom: 23%;
+    margin-top: 24%;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.pasos .seccion4 .prueba4 img{
+    float: right;
+    padding: 5px;
+    border: 5px solid aqua;
+    background-color: aqua;
+    width: 50%;;
+}

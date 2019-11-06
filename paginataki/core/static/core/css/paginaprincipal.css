@@ -1,0 +1,16 @@
+.contenidoPrincipal h1{
+    scroll-margin-bottom: 20px;
+    margin-top: 30px;
+    line-height: 40px;
+    font-size: 40px;
+    color: #028090;
+}
+.contenidoPrincipal p{
+    scroll-margin-bottom: 20px;
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 20px;
+    background: #dbedee;
+
+}
+

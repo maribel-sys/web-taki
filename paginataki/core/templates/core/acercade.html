@@ -1,0 +1,69 @@
+{% extends 'core/base.html' %}
+{%load static%}
+{%block title%}Acerca de{% endblock %}
+{% block headers %}
+<meta charset= "UTF-8">
+<meta name="viewport" content="width=device-width", 
+user-scalable=ni,initial-scale=1.0,maximium-scale=1.0,minimium-scale=1.0">
+<link rel="stylesheet" href ="{%static 'core/css/estilos.css'%}">
+<link rel="stylesheet" href ="{%static 'core/css/acercade.css'%}">
+{% endblock %}
+  {%block content%}
+  <body>
+    
+    
+    <div class="contenedor">
+
+            <section class="explicacion">
+                <h2>¿En qué consiste tu dispositivo Taki?</h2>
+                <p>Taki es un dispositivo domótico controlado por la voz que te
+                            permite almacenar la palabras que le emitas, en los diferentes 
+                            lugares del hogar. En ciertos momentos, se olvida escribir pensamientos o cosas 
+                            que se necesita por no tener el tiempo, un celular o un papel para 
+                            escribir y decir una palabra puede ser más fácil y óptimo. Lo que podrás hacer
+                            con tu.... será: generar una lista de los productos que necesitas 
+                            adquirir en un futuro, guardar recetas para usar posteriormente, tener una 
+                            lista de cuando fueron comprados los productos y 
+                            que recuerde información a ciertas horas del día. </p>
+            </section>
+
+            <section class="pasos">
+                <h2>¿Cómo funciona Taki?</h2>
+                <div class="seccion1"> 
+                    <div class="prueba">
+                            <img src="{%static 'core/img/reconocer.jpeg'%}" alt=""  >
+                            <p> Activa tu dispositivo mencionando el nombre de Taki</p>
+                    </div> 
+                        
+                </div>
+                <div class="seccion2" >
+                    <div class="prueba2">
+                                    <img src="{%static 'core/img/voice2.png'%}" alt="" >
+                                    <p>A continuación tu dispositivo te preguntará en que lista quieres guardar hoy.
+                                    A lo que tu responderás el tipo de lista en el que deseas almacenar
+                                    según tu necesidad. Estas pueden ser: lista de mercado, recetario, 
+                                    lista de productos y recuerdame.</p>
+                    </div>    
+                </div>
+                <div class="seccion3">
+                    <div class="prueba3">
+                            <img src="{%static 'core/img/voice1.jpeg'%}" alt="" >
+                            <p> Taki te preguntará que quieres guardar hoy y 
+                                debes decir: los productos, 
+                                recetas o recordatorios que desees guardar, según la lista que hayas mencionado anteriormente. </p>
+                                
+                    </div>
+                </div>
+                <div class="seccion4">
+                    <div class="prueba4">
+                            <img src="{%static 'core/img/voice3.png'%}" alt="listo" >
+                            <p>Y listo, Taki te dirá que tu almacenamiento fué exitoso. 
+                            </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </body>
+
+  {% endblock %}
